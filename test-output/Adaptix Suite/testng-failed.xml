@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Adaptix Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Listener_Class.TestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="FIBC Function Test(failed)">
+    <classes>
+      <class name="FIBC_Call_.Function_test">
+        <methods>
+          <include name="setUP"/>
+          <include name="masterModule"/>
+          <include name="FIBC"/>
+          <include name="loginPage"/>
+          <include name="work_AddArticle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- FIBC_Call_.Function_test -->
+    </classes>
+  </test> <!-- FIBC Function Test(failed) -->
+</suite> <!-- Failed suite [Adaptix Suite] -->
