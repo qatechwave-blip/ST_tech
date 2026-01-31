@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Demo Test(failed)">
+    <classes>
+      <class name="TestCases.DemoTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="masterModule"/>
+          <include name="FIBC"/>
+          <include name="work_AddArticle"/>
+          <include name="tearDown"/>
+          <include name="loginPage"/>
+          <include name="captureTestResult"/>
+        </methods>
+      </class> <!-- TestCases.DemoTest -->
+    </classes>
+  </test> <!-- Demo Test(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

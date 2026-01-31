@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="FIBC_Call_.Function_test"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+
+<suite name="FIBC Automation Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="Listener_Class.TestListener"/>
+    </listeners>
+
+    <test name="FIBC Tests" thread-count="1">
+        <classes>
+            <class name="FIBC_Call_.Function_test"/>
+        </classes>
+    </test>
+
+</suite>
