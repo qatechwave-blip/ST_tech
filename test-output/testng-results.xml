@@ -1,76 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-31T16:36:34 IST" name="FIBC Automation Suite" finished-at="2026-01-31T16:37:49 IST" duration-ms="75124">
+  <suite started-at="2026-03-25T14:15:18 IST" name="Suite" finished-at="2026-03-25T14:16:17 IST" duration-ms="59067">
     <groups>
     </groups>
-    <test started-at="2026-01-31T16:36:34 IST" name="FIBC Tests" finished-at="2026-01-31T16:37:49 IST" duration-ms="75124">
-      <class name="FIBC_Call_.Function_test">
-        <test-method is-config="true" signature="setUP(org.testng.ITestContext)[pri:0, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:36:34 IST" name="setUP" finished-at="2026-01-31T16:36:41 IST" duration-ms="7674" status="PASS">
+    <test started-at="2026-03-25T14:15:18 IST" name="Test" finished-at="2026-03-25T14:16:17 IST" duration-ms="59067">
+      <class name="FIBC_Call.FunctionTest">
+        <test-method is-config="true" signature="setUP(org.testng.ITestContext)[pri:0, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:18 IST" name="setUP" finished-at="2026-03-25T14:15:25 IST" duration-ms="7550" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7675c171]]>
+                <![CDATA[org.testng.TestRunner@2c0c4c0a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:36:41 IST" name="startTest" finished-at="2026-01-31T16:36:41 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:25 IST" name="startTest" finished-at="2026-03-25T14:15:25 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void FIBC_Call_.Function_test.loginPage()]]>
+                <![CDATA[public void FIBC_Call.FunctionTest.loginPage()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="loginPage()[pri:1, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:36:41 IST" name="loginPage" finished-at="2026-01-31T16:36:42 IST" duration-ms="752" status="PASS">
+        <test-method signature="loginPage()[pri:1, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:25 IST" name="loginPage" finished-at="2026-03-25T14:15:27 IST" duration-ms="2069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:36:42 IST" name="captureResult" finished-at="2026-01-31T16:36:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:27 IST" name="captureResult" finished-at="2026-03-25T14:15:27 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginPage status=SUCCESS method=Function_test.loginPage()[pri:1, instance:FIBC_Call_.Function_test@41005828] output={null}]]]>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=FunctionTest.loginPage()[pri:1, instance:FIBC_Call.FunctionTest@4f3bbf68] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureResult -->
-        <test-method signature="FIBC()[pri:2, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:36:42 IST" name="FIBC" finished-at="2026-01-31T16:37:22 IST" duration-ms="40157" status="FAIL">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:27 IST" name="startTest" finished-at="2026-03-25T14:15:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FIBC_Call.FunctionTest.FIBC()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="FIBC()[pri:2, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:27 IST" name="FIBC" finished-at="2026-03-25T14:15:29 IST" duration-ms="1864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FIBC -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:29 IST" name="captureResult" finished-at="2026-03-25T14:15:29 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FIBC status=SUCCESS method=FunctionTest.FIBC()[pri:2, instance:FIBC_Call.FunctionTest@4f3bbf68] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:29 IST" name="startTest" finished-at="2026-03-25T14:15:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FIBC_Call.FunctionTest.masterModule()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="masterModule()[pri:3, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:29 IST" name="masterModule" finished-at="2026-03-25T14:15:30 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterModule -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:30 IST" name="captureResult" finished-at="2026-03-25T14:15:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=masterModule status=SUCCESS method=FunctionTest.masterModule()[pri:3, instance:FIBC_Call.FunctionTest@4f3bbf68] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:30 IST" name="startTest" finished-at="2026-03-25T14:15:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FIBC_Call.FunctionTest.work_AddArticle() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="work_AddArticle()[pri:4, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:15:30 IST" name="work_AddArticle" finished-at="2026-03-25T14:16:15 IST" duration-ms="45494" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"]/div[3]/div/div' (tried for 0 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='react-select-139-placeholder']' (tried for 15 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"]/div[3]/div/div' (tried for 0 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='react-select-139-placeholder']' (tried for 15 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at utilities.Wait_Class.waitForVisibleElement(Wait_Class.java:14)
-at Function_Adaptix_test.FIBC_Module.fibcModule(FIBC_Module.java:28)
-at FIBC_Call_.Function_test.FIBC(Function_test.java:26)
+at utilities.Wait_Class.waitForVisibleElement(Wait_Class.java:15)
+at Function_Adaptix_test.AddArticle_Form.performAction(AddArticle_Form.java:81)
+at Function_Adaptix_test.AddArticle_Form.selectArticle(AddArticle_Form.java:165)
+at FIBC_Call.FunctionTest.work_AddArticle(FunctionTest.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -84,15 +148,15 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"]/div[3]/div/div"}
-  (Session info: chrome=144.0.7559.110)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='react-select-139-placeholder']"}
+  (Session info: chrome=146.0.7680.164)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2d322056cd080e1173463c2cbecde89b, findElement {using=xpath, value=//div[@class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"]/div[3]/div/div}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51705}, goog:processID: 12088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51705/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2d322056cd080e1173463c2cbecde89b
+Command: [d243ec99f546c23517d2109cf4e2d9fb, findElement {using=xpath, value=//div[@id='react-select-139-placeholder']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.164, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51071}, goog:processID: 20028, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51071/devtoo..., se:cdpVersion: 146.0.7680.164, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d243ec99f546c23517d2109cf4e2d9fb
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -116,146 +180,29 @@ at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedCo
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 31 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FIBC -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:36:42 IST" name="startTest" finished-at="2026-01-31T16:36:42 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void FIBC_Call_.Function_test.FIBC()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:37:23 IST" name="captureResult" finished-at="2026-01-31T16:37:23 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=FIBC status=FAILURE method=Function_test.FIBC()[pri:2, instance:FIBC_Call_.Function_test@41005828] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:37:23 IST" name="startTest" finished-at="2026-01-31T16:37:23 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void FIBC_Call_.Function_test.masterModule()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="masterModule()[pri:3, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:37:23 IST" name="masterModule" finished-at="2026-01-31T16:37:23 IST" duration-ms="465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- masterModule -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:37:23 IST" name="captureResult" finished-at="2026-01-31T16:37:23 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=masterModule status=SUCCESS method=Function_test.masterModule()[pri:3, instance:FIBC_Call_.Function_test@41005828] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:37:23 IST" name="startTest" finished-at="2026-01-31T16:37:23 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void FIBC_Call_.Function_test.work_AddArticle()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="work_AddArticle()[pri:4, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:37:23 IST" name="work_AddArticle" finished-at="2026-01-31T16:37:47 IST" duration-ms="24149" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for utilities.Wait_Class$$Lambda$746/0x00000272b832eba8@33eb6758 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51705}, goog:processID: 12088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51705/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2d322056cd080e1173463c2cbecde89b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for utilities.Wait_Class$$Lambda$746/0x00000272b832eba8@33eb6758 (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51705}, goog:processID: 12088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51705/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2d322056cd080e1173463c2cbecde89b
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at utilities.Wait_Class.waitForDropdownOptions(Wait_Class.java:35)
-at Function_Adaptix_test.AddArticle_Form.lambda$2(AddArticle_Form.java:124)
-at Function_Adaptix_test.AddArticle_Form.performActionWithHighlight(AddArticle_Form.java:67)
-at Function_Adaptix_test.AddArticle_Form.selectArticleByIndex(AddArticle_Form.java:123)
-at FIBC_Call_.Function_test.work_AddArticle(Function_test.java:42)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+... 32 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- work_AddArticle -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:37:48 IST" name="captureResult" finished-at="2026-01-31T16:37:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:16:15 IST" name="captureResult" finished-at="2026-03-25T14:16:15 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=work_AddArticle status=FAILURE method=Function_test.work_AddArticle()[pri:4, instance:FIBC_Call_.Function_test@41005828] output={null}]]]>
+                <![CDATA[[TestResult name=work_AddArticle status=FAILURE method=FunctionTest.work_AddArticle()[pri:4, instance:FIBC_Call.FunctionTest@4f3bbf68] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FIBC_Call_.Function_test@41005828]" started-at="2026-01-31T16:37:48 IST" name="tearDown" finished-at="2026-01-31T16:37:49 IST" duration-ms="1316" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FIBC_Call.FunctionTest@4f3bbf68]" started-at="2026-03-25T14:16:15 IST" name="tearDown" finished-at="2026-03-25T14:16:17 IST" duration-ms="1268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- FIBC_Call_.Function_test -->
-    </test> <!-- FIBC Tests -->
-  </suite> <!-- FIBC Automation Suite -->
+      </class> <!-- FIBC_Call.FunctionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>Com.FunctionTest.Adaptix</groupId>
     <artifactId>Com.Test_Function.Adaptix</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Com.Test_Function.Adaptix</name>
 
     <!-- ================= PROPERTIES ================= -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
-        <surefire.version>3.3.0</surefire.version>
     </properties>
 
     <!-- ================= DEPENDENCIES ================= -->
@@ -43,7 +41,7 @@
             <version>5.8.0</version>
         </dependency>
 
-        <!-- Extent Reports -->
+        <!-- Extent Report (ONLY ONE VERSION) -->
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
@@ -62,14 +60,14 @@
             <version>2.25.0</version>
         </dependency>
 
-        <!-- SLF4J → Log4j2 Bridge (IMPORTANT) -->
+        <!-- SLF4J Bridge (KEEP THIS ONLY) -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j2-impl</artifactId>
             <version>2.25.0</version>
         </dependency>
 
-        <!-- Apache POI (Excel Report) -->
+        <!-- Apache POI -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -87,11 +85,6 @@
             <artifactId>commons-io</artifactId>
             <version>2.19.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.17.0</version>
-        </dependency>
 
         <!-- Mail -->
         <dependency>
@@ -99,28 +92,13 @@
             <artifactId>jakarta.mail</artifactId>
             <version>2.0.1</version>
         </dependency>
-        <dependency>
-            <groupId>jakarta.activation</groupId>
-            <artifactId>jakarta.activation-api</artifactId>
-            <version>2.1.2</version>
-        </dependency>
 
-        <!-- REST Assured (Jira Utils) -->
+        <!-- REST Assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>5.5.6</version>
         </dependency>
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>json-path</artifactId>
-            <version>5.5.6</version>
-        </dependency>
-        <dependency>
-    <groupId>org.json</groupId>
-    <artifactId>json</artifactId>
-    <version>20240303</version>
-</dependency>
 
     </dependencies>
 
@@ -128,33 +106,30 @@
     <build>
         <plugins>
 
-    <!-- Compiler Plugin -->
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.13.0</version>
-        <configuration>
-            <release>${java.version}</release>
-        </configuration>
-    </plugin>
+            <!-- Compiler -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <release>17</release>
+                </configuration>
+            </plugin>
 
-    <!-- Surefire Plugin (TestNG Runner) -->
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.3.0</version>
-        <configuration>
-            <suiteXmlFiles>
-                <suiteXmlFile>testng.xml</suiteXmlFile>
-            </suiteXmlFiles>
-            <useModulePath>false</useModulePath>
-        </configuration>
-    </plugin>
+            <!-- TestNG Runner -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <useModulePath>false</useModulePath>
+                </configuration>
+            </plugin>
 
-</plugins>
-
-
-       
+        </plugins>
     </build>
 
 </project>

@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FIBC_Call_.Function_test">
+      <class name="FIBC_Call.Function_test">
         <methods>
+          <include name="work_AddArticle"/>
           <include name="captureResult"/>
           <include name="setUP"/>
           <include name="startTest"/>
-          <include name="work_AddArticle"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- FIBC_Call_.Function_test -->
+      </class> <!-- FIBC_Call.Function_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
